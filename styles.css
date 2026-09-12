@@ -793,7 +793,7 @@ a, button {
    ========================================================= */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 18px;
 }
 .project-card {
@@ -807,6 +807,10 @@ a, button {
     box-shadow: var(--card-shadow);
     transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
     isolation: isolate;
+}
+.project-card:not(.featured) {
+    display: flex;
+    flex-direction: column;
 }
 .project-card:hover {
     transform: translateY(-4px);
@@ -879,6 +883,9 @@ a, button {
     border-top: 1px solid var(--line);
     position: relative;
     z-index: 1;
+}
+.project-card:not(.featured) .project-links {
+    margin-top: auto;
 }
 .project-links a {
     display: inline-flex;
@@ -2110,5 +2117,115 @@ a.contact-row:hover { background: var(--glass-hover); border-color: var(--line);
         opacity: 1 !important;
         transform: none !important;
         filter: none !important;
+    }
+}
+
+
+/* ========================================= 
+   Slideshow / Showcase 
+   ========================================= */
+.showcase .slideshow-container {
+    position: relative;
+    max-width: 900px;
+    margin: 3rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    background: var(--bg-alt);
+}
+.slideshow-track {
+    display: flex;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    height: 60vh;
+    max-height: 600px;
+    min-height: 400px;
+}
+.slide {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: #fff;
+    padding: 3rem 2rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.4s ease 0.2s;
+}
+.slide.active .slide-caption {
+    transform: translateY(0);
+    opacity: 1;
+}
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+.slide-btn:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+    transform: translateY(-50%) scale(1.1);
+}
+.prev-btn { left: 20px; }
+.next-btn { right: 20px; }
+.slideshow-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.indicator:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+.indicator.active {
+    background: #fff;
+    transform: scale(1.3);
+}
+
+/* Fix for research grid: force 2 columns to prevent auto-fit from keeping an empty 3rd track due to the full-width featured card */
+@media (min-width: 640px) {
+    #researchGrid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

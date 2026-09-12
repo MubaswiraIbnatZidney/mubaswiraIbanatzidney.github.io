@@ -1,86 +1,91 @@
-MUBIN UL ISLAM CHOWDHURY
-Software & AI Engineer
-[ uic.mubin@gmail.com Ó (+880) 1303215559 ½ Mohakhali Ja Block, Wireless ¯ mubinuic  mubinui
-EDUCATION
-ACMP-4.0
-IBA, Dhaka University
- JAN 2025 – MAR 2025
-B.Sc in Computer Science and
-Engineering
-Brac University
- January 2018 – July 2022 CGPA : 3.54
-HSC (Science Group)
-Collectorate School and College, Rangpur
- Jan 2014 – Jan 2016 GPA : 5.00
-SKILLS
-Java Python Rabbitmq Kafka
-Redis Docker Keykloak
-Springboot Typescript Angular
-N8N CSS SQL Git Vectorshift
-C/C++ NLP RAG CAG
-Prompt Engineering Machine Learning
-Deep Learning
-ACHIEVEMENTS
-. 2nd Runners Up AI Hackathon 2025 (By Brain Station 23 and Poridhi)
-• Best Team Performer (BRAC IT, Townhall
-2023)
-• Achieved 3rd Place in 3rd Kibo Krpc by
-Jaxa (National) 2022
-CERTIFICATIONS
-• Programming for Everybody (Getting
-Started with Python) - Coursera
-• Introduction to Data Science in Python -
-DataCamp
-• Introduction to Statistics in Python -
-DataCamp
-• Problem Solving Certificate - HackerRank
-• Supervised Learning with scikit-learn -
-DataCamp
-• Unsupervised Learning in Python -
-DataCamp
-• Spring 6 and Spring Boot 3 First Look -
-LinkedIn
-EXPERIENCE
-Software Engineer (Research and Development)
-Brac IT Services Ltd.
- October 2022 – Now
-• Flowable Modeler Generator (Springboot, Langchain4j)
-• SQL Generator [3 versions Java:(Springboot, Langchaing4j),
-Python:Langchain4j, N8N ]
-. Damaged Poster Detector (Python, OpenCV, SteamLit)
-. Put It On [Virtual Dressor](Python, OpenCV, SteamLit, Gemini-2.0-flash {Image Generator})
-• Automated Agent Selector, Chatbots (N8N)
-• Conducted a workshop on " AI-Powered Development: Enhancing
-coding with intelligent integration".
-• Developed business process modeler with Activiti and Flowable
-support(Springboot, Angular)
-• Developed two-factor authentication using Quarkus(Springboot).
-• Developed Brac University Management System (USIS) both
-front-end (Angular) and back-end (Sprinboot)
-• Developing notification system with Reactive Spring web (WebFlux)
-• Designed, Developed, and Optimized fingerprint extension for
-Postgres and PHP using C and C++ (Used Afis Algorithm and as a
-reference used SourceAFIS).
-• Developed Ollama-based Bangla document RAG. (Gemma)
-• Developed Online Exam monitoring system (OpenCV)
-• Modified open-source Imgproxy project and integrated premium
-features.(Go)
-Team Lead
-BracU Mongol-Tori (Semi-Autonomous Mars Rover)
- January 2022–October2022
-• Developed rock classification model using YOLO-v5 (It can detect 9
-types of rocks).
-• Developed mechanical tool detector using YOLO-v5, SSD MobileNet.
-• Developed Arrow and Aruco Marker detector using OpenCV.
-• Successfully managed a team with 17 members.
-Campus Representative
-Brac University
- Summer and Fall Semesters 2019
-• Arranged events and seminars.
-• Represented Brac University on multiple occasions.
-RESEARCH
-• Precision Repairs: Achieving Accuracy During Repair Missions at the
-International Space Station. (IEEE Xplore)
-• Predicting Suicidal Intent from Social Media Text Post Using ML
-(Dspace Bracu)
-• Personal projects: Based on ML and DL (Please visit Github)
+MUBASWIRA IBNAT ZIDNEY
+Computer Science and Engineering Graduate | Machine Learning and NLP Research
+Badda, Dhaka, Bangladesh | +880 1970 096565 | zidney145@gmail.com
+linkedin.com/in/mubaswira-ibnat-zidney | github.com/MubaswiraIbnatZidney
+
+Summary
+Computer Science and Engineering graduate from AUST with a CGPA of 3.721 and three papers published with IEEE
+at ICCIT 2025. The work spans multimodal deep learning, Bangla speech recognition and blockchain systems, and
+covered dataset preparation, model design, training and evaluation. Now seeking an AI or Machine Learning
+internship in Dhaka.
+Technical Skills
+Programming Python, C++, Java, C#, SQL
+ML and AI Deep learning, transformer architectures, convolutional neural networks, multimodal
+fusion, natural language processing, automatic speech recognition, model evaluation
+Data Dataset cleaning and consolidation, class balancing, feature preparation, error analysis
+Web and Mobile ASP.NET MVC, Entity Framework, PHP, HTML5, CSS3, Bootstrap, Android SDK, Firebase
+Databases Microsoft SQL Server, MySQL, Firebase Realtime Database
+Other Blockchain and smart contracts, Git and GitHub, academic writing and literature review
+Research Publications
+All three presented at ICCIT 2025, IEEE, Cox’s Bazar, Bangladesh.
+Culinary Culture: A Global Exploration of Health and Diversity in Cuisine
+First Author, IEEE Xplore ieeexplore.ieee.org/document/11491234
+• Built a fusion architecture that combines a transformer-based text encoder for recipe ingredients with a CNN branch
+for dish images.
+• Refined a dataset of 4,986 recipes, consolidating over 76 regional cuisine labels into 30 country-level classes to
+improve semantic coherence and class balance.
+• Achieved 81 percent accuracy in cuisine classification and 79 percent in diet prediction. Both results were higher
+than the unimodal baselines.
+BanglaRobustNet: A Hybrid Denoising-Attention Architecture for Robust Bangla Speech Recognition
+Second Author, IEEE Xplore ieeexplore.ieee.org/document/11491383
+• Implemented a hybrid ASR framework on a Wav2Vec-BERT backbone, adding a diffusion-based denoising module
+and a contextual cross-attention module conditioned on speaker embeddings.
+• Trained end to end with a composite objective of CTC loss, phonetic consistency and speaker alignment.
+• Reduced Word Error Rate and Character Error Rate on Mozilla Common Voice Bangla and augmented noisy speech,
+improving on both Wav2Vec-BERT and Whisper baselines.
+TAXCHAIN: A Blockchain-Based Income Tax Management System for Bangladesh with NID Integration
+Second Author, IEEE Xplore ieeexplore.ieee.org/document/11491821
+• Designed a permissioned blockchain linking National ID and Taxpayer ID to automate Tax Deduction at Source.
+• Wrote smart contract logic for progressive tax slabs and annual reconciliation on an immutable ledger.
+Education
+Ahsanullah University of Science and Technology Dhaka, Bangladesh
+B.Sc. in Computer Science and Engineering December 2021 to 2026
+• CGPA 3.721 out of 4.00, ranked 8th in the graduating batch. Highest semester GPA 3.96.
+• Coursework: Artificial Intelligence, Algorithms, Data Structures, Database Systems, Object-Oriented Programming,
+Computer Networks.
+
+National Ideal College Dhaka, Bangladesh
+Higher Secondary School Certificate (Science), GPA 5.00 out of 5.00 2020
+Motijheel Government Girls’ High School Dhaka, Bangladesh
+Secondary School Certificate (Science), GPA 5.00 out of 5.00 2018
+Academic Projects
+Techify, IT Enterprise Management System github.com/MubaswiraIbnatZidney/Techify-project-3.2
+• Built a three-role storefront for Admin, Seller and Customer accounts on ASP.NET MVC 5 with Razor views over an
+Entity Framework data layer.
+• Designed a 13-entity SQL Server schema covering products, categories, brands, sellers, carts, orders, reviews and
+transactions, with foreign keys across every relation.
+• Selected as one of the best projects in the batch for interface design and backend efficiency.
+Chakri Lagbe, Android Job Recruitment App github.com/MubaswiraIbnatZidney/Chakri-Lagbe
+• Built an Android job board across seven activities covering registration, login, job posting, listing and detail views.
+• Used Firebase Authentication for email sign-in and Firebase Realtime Database for job posts, bound to a
+RecyclerView through FirebaseRecyclerAdapter so listings update live.
+• Modelled each posting with title, description, skills, salary and date. Targets Android 13 (API 33) with support back
+to Lollipop (API 21).
+University Course Registration System github.com/MubaswiraIbnatZidney/UNIVERSITY_COURSE_REGISTRATION
+• Built a registration portal across 39 PHP pages with separate admin and student login flows.
+• Designed a normalised six-table MySQL schema for students, instructors, courses, departments and registrations,
+with foreign keys tying each registration to both a student and a course.
+• Implemented full CRUD for departments, courses, instructors and students, plus student-side registration and a
+registered-course view.
+Awards and Involvement
+• Merit-Based Tuition Scholarship, AUST (2022 to 2025). Half or full tuition waiver in 4 of 7 semesters for
+academic performance.
+• Best Project of the Batch, Laser Security System. Arduino perimeter alarm triggered by beam interruption,
+recognised for hardware integration and circuit design.
+• Runner Up, Art Maestro Segment, CogniBat21 (2021). Awarded by the AUST Innovation and Design Club.
+• Best Student Performance Award (2018). Institutional recognition for GPA 5.00 in the SSC examination.
+• AUST Programming and Informatics Club (2022 to present). Active member. Attended technical workshops on
+AWS, CNCF and GitHub in 2025.
+• AUST Research and Publication Club (2023 to present). Active member. Regular participant in research seminars
+and literature review sessions.
+Languages
+Bengali Native
+English IELTS Academic, overall band 7.5, CEFR level C1 (June 2026). Listening 8.0, Reading
+
+7.5, Writing 7.0, Speaking 6.5.
+
+References
+Md. Aminur Rahman Raihan Tanvir
+Assistant Professor, Department of CSE Lecturer Grade-I, Department of CSE
+Ahsanullah University of Science and Technology Ahsanullah University of Science and Technology
+aminur.cse@aust.edu raihantanvir.cse@aust.edu

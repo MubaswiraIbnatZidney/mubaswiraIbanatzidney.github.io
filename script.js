@@ -1,5 +1,5 @@
 /* =========================================================
-   Mubin Ul Islam Chowdhury — Portfolio
+   Mubaswira Ibnat Zidney — Portfolio
    Interactions: nav, progress, reveal, counters, filters,
    lightbox (+swipe), spotlight, tilt, form
    ========================================================= */
@@ -66,7 +66,7 @@
     const typedEl = $('#typedText');
     if (typedEl) {
         const words = [
-            'multi-agent AI platforms',
+            'machine learning models',
             'RAG & LLM systems',
             'computer-vision pipelines',
             'enterprise backends',
@@ -416,7 +416,7 @@
         }
         const body = `${data.message}\n\n— ${data.name}\n${data.email}`;
         window.location.href =
-            `mailto:uic.mubin@gmail.com?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(body)}`;
+            `mailto:zidney145@gmail.com?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(body)}`;
         toast('Opening your email app with the message ready to send…', 'info');
     });
 
@@ -430,8 +430,81 @@
     }
 
     // -----------------------------------------------------
+    // Slideshow / Showcase
+    // -----------------------------------------------------
+    const slideshowTrack = $('#slideshowTrack');
+    const slides = slideshowTrack ? $$('.slide', slideshowTrack) : [];
+    const prevSlideBtn = $('#slidePrev');
+    const nextSlideBtn = $('#slideNext');
+    const indicators = $$('.indicator', $('#slideshowIndicators'));
+    
+    if (slideshowTrack && slides.length > 0) {
+        let currentSlideIndex = 0;
+        let slideInterval = null;
+
+        const updateSlideshow = () => {
+            slideshowTrack.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+            slides.forEach((slide, idx) => {
+                slide.classList.toggle('active', idx === currentSlideIndex);
+            });
+            indicators.forEach((ind, idx) => {
+                ind.classList.toggle('active', idx === currentSlideIndex);
+            });
+        };
+
+        const nextSlide = () => {
+            currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+            updateSlideshow();
+            resetSlideInterval();
+        };
+
+        const prevSlide = () => {
+            currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+            updateSlideshow();
+            resetSlideInterval();
+        };
+
+        const resetSlideInterval = () => {
+            if (slideInterval) clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 5000);
+        };
+
+        nextSlideBtn?.addEventListener('click', nextSlide);
+        prevSlideBtn?.addEventListener('click', prevSlide);
+        
+        indicators.forEach((ind, idx) => {
+            ind.addEventListener('click', () => {
+                currentSlideIndex = idx;
+                updateSlideshow();
+                resetSlideInterval();
+            });
+        });
+
+        // Touch swipe support for slideshow
+        let slideTouchX = 0;
+        slideshowTrack.addEventListener('touchstart', (e) => {
+            slideTouchX = e.changedTouches[0].clientX;
+            if (slideInterval) clearInterval(slideInterval);
+        }, { passive: true });
+        
+        slideshowTrack.addEventListener('touchend', (e) => {
+            const dx = e.changedTouches[0].clientX - slideTouchX;
+            if (dx > 50) prevSlide();
+            else if (dx < -50) nextSlide();
+            else resetSlideInterval();
+        }, { passive: true });
+
+        // Pause on hover
+        slideshowTrack.addEventListener('mouseenter', () => clearInterval(slideInterval));
+        slideshowTrack.addEventListener('mouseleave', resetSlideInterval);
+
+        resetSlideInterval();
+        updateSlideshow(); // Initial setup
+    }
+
+    // -----------------------------------------------------
     // Console signature
     // -----------------------------------------------------
-    console.log('%cMubin · Portfolio', 'color:#0A84FF;font-weight:700;font-size:14px');
-    console.log('Reach out → uic.mubin@gmail.com');
+    console.log('%cMubaswira · Portfolio', 'color:#0A84FF;font-weight:700;font-size:14px');
+    console.log('Reach out → zidney145@gmail.com');
 })();
