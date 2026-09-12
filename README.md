@@ -1,4 +1,4 @@
-# 🚀 Mubin Ul Islam Chowdhury - Portfolio Website
+# 🚀 Mubaswira Ibnat Zidney - Portfolio Website
 
 A stunning, modern portfolio website featuring Apple-inspired liquid glass design with glassmorphism effects. Built with vanilla HTML, CSS, and JavaScript for optimal performance and compatibility.
 
@@ -46,7 +46,7 @@ A stunning, modern portfolio website featuring Apple-inspired liquid glass desig
 
 1. **Clone or Download**
    ```bash
-   git clone https://github.com/mubinui/mubinuic.github.io.git
+   git clone https://github.com/MubaswiraIbnatZidney/mubaswiraibnatzidney.github.io.git
    cd portfolio-website
    ```
 
@@ -140,11 +140,7 @@ The website uses CSS custom properties for easy theming:
 
 ## 📞 Contact Information
 
-- **Email**: uic.mubin@gmail.com
-- **Phone**: +880 1303 215559
-- **Location**: Mohakhali Ja Block, Wireless, Dhaka
-- **GitHub**: [mubinui](https://github.com/mubinui)
-- **LinkedIn**: [mubinuic](https://www.linkedin.com/in/mubinuic/)
+- **GitHub**: [MubaswiraIbnatZidney](https://github.com/MubaswiraIbnatZidney)
 
 ## 🏆 Professional Highlights
 
@@ -160,7 +156,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mubinui/mubinuic.github.io/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/MubaswiraIbnatZidney/mubaswiraibnatzidney.github.io/issues).
 
 ## 📈 Future Enhancements
 
@@ -182,6 +178,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ---
 
-**Built with ❤️ by Mubin Ul Islam Chowdhury**
+**Built with ❤️ by Mubaswira Ibnat Zidney**
 
 *Transforming ideas into digital reality through code and creativity.*
